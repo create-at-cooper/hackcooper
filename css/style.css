@@ -321,6 +321,24 @@ a, a:link, a:visited {
 	color: red;
 }
 
+/*sponsors*/
+
+.sponsor5k {
+width:40%;
+}
+
+.sponsor2k {
+width:33%;
+}
+
+.sponsor1k {
+width:25%;
+}
+
+.sponsorUnder1k {
+width:20%;
+}
+
 #social > a {
 	color: white;
 	height: 1em;
@@ -439,4 +457,20 @@ a, a:link, a:visited {
 	#date .block {
 		margin-left: 0.1em;
 	}
+	.sponsor5k {
+		width:80%;
+	}
+
+	.sponsor2k {
+		width:70%;
+	}
+
+	.sponsor1k {
+		width:60%;
+	}
+
+	.sponsorUnder1k {
+		width:50%;
+	}
+
 }
