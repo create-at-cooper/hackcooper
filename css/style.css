@@ -321,6 +321,31 @@ a, a:link, a:visited {
 	color: red;
 }
 
+/*sponsors*/
+
+.sponsor {
+	margin: 5px 10px;
+	vertical-align: middle;
+}
+
+.level-5 {
+	width:40%;
+}
+
+.level-2 {
+	width:28%;
+}
+
+.level-1 {
+	width:23%;
+}
+
+.level-0 {
+	width:19%;
+}
+
+/*end sponsors*/
+
 #social > a {
 	color: white;
 	height: 1em;
@@ -439,4 +464,20 @@ a, a:link, a:visited {
 	#date .block {
 		margin-left: 0.1em;
 	}
+	.level-5 {
+		width:80%;
+	}
+
+	.level-2 {
+		width:70%;
+	}
+
+	.level-1 {
+		width:60%;
+	}
+
+	.level-0 {
+		width:50%;
+	}
+
 }
