@@ -323,20 +323,25 @@ a, a:link, a:visited {
 
 /*sponsors*/
 
-.sponsor5k {
-width:40%;
+.sponsor {
+	margin: 5px 10px;
+	vertical-align: middle;
 }
 
-.sponsor2k {
-width:33%;
+.level-5 {
+	width:40%;
 }
 
-.sponsor1k {
-width:25%;
+.level-2 {
+	width:28%;
 }
 
-.sponsorUnder1k {
-width:20%;
+.level-1 {
+	width:23%;
+}
+
+.level-0 {
+	width:19%;
 }
 
 #social > a {
@@ -457,19 +462,19 @@ width:20%;
 	#date .block {
 		margin-left: 0.1em;
 	}
-	.sponsor5k {
+	.level-5 {
 		width:80%;
 	}
 
-	.sponsor2k {
+	.level-2 {
 		width:70%;
 	}
 
-	.sponsor1k {
+	.level-1 {
 		width:60%;
 	}
 
-	.sponsorUnder1k {
+	.level-0 {
 		width:50%;
 	}
 
