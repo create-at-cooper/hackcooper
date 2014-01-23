@@ -328,20 +328,34 @@ a, a:link, a:visited {
 	vertical-align: middle;
 }
 
+.sponsor {
+	filter: grayscale(100%);
+	-webkit-filter: grayscale(100%);
+	filter: gray;
+	opacity: 0.6;
+}
+
+.sponsor:hover {
+	filter: grayscale(0%);
+	-webkit-filter: grayscale(0%);
+	filter: none;
+	opacity: 1.0;
+}
+
 .level-5 {
-	width:40%;
+	width: 40%;
 }
 
 .level-2 {
-	width:26%;
+	width: 26%;
 }
 
 .level-1 {
-	width:20%;
+	width: 20%;
 }
 
 .level-0 {
-	width:16%;
+	width: 16%;
 }
 
 /*end sponsors*/
