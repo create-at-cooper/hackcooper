@@ -128,6 +128,15 @@ a.block:hover {
 	background-image: url('../images/grid.jpg');
 }
 
+#sponsors a {
+	margin-left: 24px;
+	margin-right: 24px;
+}
+
+#sponsors-list {
+	margin-top: 48px;
+}
+
 #social {
 	position: relative;
 	font-size: 0pt;
@@ -347,15 +356,15 @@ a, a:link, a:visited {
 }
 
 .level-2 {
-	width: 26%;
+	width: 25%;
 }
 
 .level-1 {
-	width: 20%;
+	width: 18%;
 }
 
 .level-0 {
-	width: 16%;
+	width: 12%;
 }
 
 /*end sponsors*/
