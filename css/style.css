@@ -190,6 +190,12 @@ a.block:hover {
 	padding-right: 24px;
 }
 
+.alert {
+	padding-top: 24px;
+	padding-left: 24px;
+	padding-right: 24px;	
+}
+
 .action {
 	position: relative;
 
