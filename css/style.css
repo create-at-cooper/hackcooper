@@ -400,6 +400,13 @@ a, a:link, a:visited {
 	background-color: #36465d;
 }
 
+#hackerleague {
+	background-image: url('../images/hackerleague.png');
+}
+#hackerleague:after {
+	background-color: #1c505e;
+}
+
 @media (max-width: 1024px) {
 	.slant {
 		font-size: 40pt;
