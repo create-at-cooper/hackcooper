@@ -24,12 +24,17 @@
 			}
 
 			#by {
-				font-size: 36pt;
-				line-height: 1.5;
+				font-size: 38pt;
+				line-height: 1.35;
+				margin-top: 12px;
 			}
 
 			#id {
 				font-size: 24pt;
+			}
+
+			#sponsors {
+				margin-top: -36px;
 			}
 
 			#sponsors a {
@@ -38,7 +43,7 @@
 			}
 
 			#sponsors-list > div {
-				margin-top: 12px;
+				margin-top: 18px;
 			}
 
 			.level-2 {
@@ -46,7 +51,7 @@
 			}
 
 			.level-1 {
-				width: 18%;
+				width: 16%;
 			}
 
 			.level-0 {
@@ -59,22 +64,57 @@
 			}
 
 			#mcgraw {
-				width: 8%;
+				width: 10%;
 			}
 
 			.wifi {
 				color: #555;
-				font-size: 24pt;
+				font-size: 26pt;
+			}
+
+			#top {
+				font-size: 0pt;
+			}
+
+			#header {
+				display: inline-block;
+				height: 360px;
+				width: 45%;
+			}
+
+			#header > img {
+				padding-top: 30px;
+			}
+
+			#by {
+				display: inline-block;
+				width: 55%;
+				margin-top: 48px;
+				vertical-align: top;
+			}
+
+			#hl {
+				font-size: 28pt;
+			}
+
+			body {
+				font-size: 0pt;
 			}
 
 		</style>
 	</head>
 	<body>
-		
-		<div id="header" class="full">
-			<img class="logo" src="images/hackcooper.png">
-		</div>
-		<div id="sponsors" class="info tk-museo-slab">
+		<div id="top">
+			<div id="header" class="full">
+				<img class="logo" src="images/hackcooper.png">
+			</div>
+			<div id="by" class="info tk-museo-slab">
+				createatcooper.org<span class="space"></span><a href="http://createatcooper.org">@createatcooper</a><span class="space"></span><span id="hl">hackerleague.org/hackathons/hackcooper</span>
+				<div>
+					<span class="wifi" href="http://createatcooper.org"><a href="/">wifi</a>: HackCooper-Rose / fundees99</span>
+				</div>
+			</div>
+		</div><div id="sponsors" class="info tk-museo-slab">
 			<div id="sponsors-list">
 				<div>
 					<a href="http://www.thehackerati.com/"><img src="images/sponsors/hackerati.png" class="sponsorz level-2"></a>
@@ -92,18 +132,11 @@
 				
 				<div>
 					<a href="http://sendgrid.com/"><img src="images/sponsors/sendgrid.png" class="sponsorz level-1"></a>
-					<a id="mcgraw" href="http://www.mheducation.com"><img src="images/sponsors/mhe.jpg" class="sponsorz level-1"></a>
+					<a href="http://www.mheducation.com"><img id="mcgraw" src="images/sponsors/mhe.jpg" class="sponsorz level-1"></a>
 					<a href="http://facebook.com/"><img src="images/sponsors/facebook.png" class="sponsorz level-0"></a>
 					<a href="http://squishable.com/"><img src="images/sponsors/squishable.gif" class="sponsorz level-0"></a>
 					<a href="http://www.sparkfun.com/"><img src="images/sponsors/sparkfun.png" class="sponsorz level-0"></a>
 				</div>
-			</div>
-		</div>
-
-		<div id="by" class="info tk-museo-slab">
-			createatcooper.org<span class="space"></span><a href="http://createatcooper.org">@createatcooper</a><span class="space"></span><span id="hl">hackerleague.org/hackathons/hackcooper</span>
-			<div>
-				<span class="wifi" href="http://createatcooper.org">WIFI: HackCooper-Rose / fundees99</span>
 			</div>
 		</div>
 	</body>
