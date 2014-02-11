@@ -34,6 +34,17 @@ p {
 	margin-right: .25em;
 }
 
+.prize {
+	display: inline-block;
+
+	margin-left: .75em;
+	margin-right: .75em;	
+}
+
+.prize > a, .prize > a:link, .prize > a:visited {
+	color: #333333;
+}
+
 a.block, a.block:link, a.block:visited {
 	color: #333333;
 }
@@ -122,6 +133,11 @@ a.block:hover {
 
 #incentive {
 	background-image: url('../images/atrium.jpg');
+}
+#trophy {
+	height: 25%;
+	max-height: 600px;
+	background-image: url('../images/winners/trophy.jpg');	
 }
 
 #free {
@@ -276,7 +292,7 @@ a#register:hover {
 .half.left {
 	text-align: right;
 }
-#incentive .half.left {
+#incentive .half.left, #trophy .half.left {
 	width: 45%;
 }
 
@@ -295,26 +311,60 @@ a#register:hover {
 	background-color: #00a0f0;
 }
 
-.questions {
+.questions, .winners, .prizes {
 	margin-left: auto;
 	margin-right: auto;
-
-	max-width: 80%;
 
 	font-size: 0pt;
 }
 
-.qa {
+.questions {
+	max-width: 80%;
+}
+
+.prizes {
+	max-width: 90%;
+}
+
+.winners {
+	max-width: 100%;
+}
+
+.qa, .winner {
 	font-size: 48pt;
 
-	width: 40%;
 	max-width: 12em;
 	text-align: left;
 
 	display: inline-block;
 	vertical-align: top;
+}
 
+.qa {
+	width: 40%;
 	margin-right: 5%;
+}
+.qa:nth-child(even) {
+	margin-right: 0;	
+}
+
+.winner {
+	width: 28%;
+	margin-right: 2.5%;
+	margin-top: .25em;
+}
+.winner > img {
+	width: 100%;
+}
+.winner > h2 {
+	margin-top: .25em;
+	font-size: 18pt;
+}
+.winner > h2 > a {
+	font-size: 24pt;
+}
+.winner:last-child {
+	margin-right: 0;
 }
 
 #faq {
@@ -438,10 +488,10 @@ a, a:link, a:visited {
 		font-size: 28pt;
 	}
 
-	#incentive .half.left {
+	#incentive .half.left, #trophy .half.left {
 		width: 40%;
 	}
-	#incentive .half.right {
+	#incentive .half.right, #trophy .half.right {
 		width: 60%;
 	}
 
@@ -449,19 +499,25 @@ a, a:link, a:visited {
 		width: 90%;
 	}
 
-	.info, .block, .qa {
+	.info, .block, .qa, .winner {
 		font-size: 40pt;
 	}
 
-	.questions {
+	.questions, .winners {
 		margin-top: 24px;
 	}
 
-	.qa {
+	.qa, .winner {
 		width: 100%;
+		margin-right: 0px;
 	}
 
-	.qa h2 {
+	.winner > p, .winner > h2 {
+		margin-left: 5%;
+		margin-right: 5%;
+	}
+
+	.qa h2, .winner h2 {
 		margin-top: .25em;
 		margin-bottom: 0em;
 	}
@@ -481,7 +537,7 @@ a, a:link, a:visited {
 		width: 90%;
 	}
 
-	.info, .block, .qa {
+	.info, .block, .qa, .winner {
 		font-size: 32pt;
 	}
 
