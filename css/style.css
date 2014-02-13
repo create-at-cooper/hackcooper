@@ -499,6 +499,10 @@ a, a:link, a:visited {
 		width: 90%;
 	}
 
+	.button {
+		font-size: 42pt;	
+	}
+
 	.info, .block, .qa, .winner {
 		font-size: 40pt;
 	}
