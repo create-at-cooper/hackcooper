@@ -407,6 +407,10 @@ a, a:link, a:visited {
 	opacity: 1.0;
 }
 
+.title {
+	overflow-x: hidden;
+}
+
 .level-5 {
 	width: 40%;
 }
@@ -474,6 +478,10 @@ a, a:link, a:visited {
 		font-size: 32pt;
 	}
 
+	.button {
+		font-size: 44pt;	
+	}
+
 	.block-wrap {
 		display: block;
 	}
@@ -525,6 +533,12 @@ a, a:link, a:visited {
 		margin-top: .25em;
 		margin-bottom: 0em;
 	}
+
+	.prizes .separator {
+		display: block;
+		margin-left: auto;
+		margin-right: auto;
+	}
 }
 
 @media (max-width: 480px) {
@@ -542,7 +556,7 @@ a, a:link, a:visited {
 	}
 
 	.info, .block, .qa, .winner {
-		font-size: 32pt;
+		font-size: 30pt;
 	}
 
 	.description {
@@ -550,7 +564,7 @@ a, a:link, a:visited {
 	}
 
 	.button {
-		font-size: 38pt;	
+		font-size: 36pt;	
 	}
 
 	#date .info, #date .block {
