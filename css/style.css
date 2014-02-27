@@ -34,11 +34,19 @@ p {
 	margin-right: .25em;
 }
 
-.prize {
+.prize, .mention, .source {
 	display: inline-block;
 
 	margin-left: .75em;
 	margin-right: .75em;	
+}
+
+.mention > a, .mention > a:link, .mention > a:visited {
+	color: #00a0f0;
+}
+
+.source > a, .source > a:link, .source > a:visited {
+	color: #ffc600;
 }
 
 .prize > a, .prize > a:link, .prize > a:visited {
@@ -311,15 +319,29 @@ a#register:hover {
 	background-color: #00a0f0;
 }
 
-.questions, .winners, .prizes {
+.questions, .winners, .prizes, .press {
 	margin-left: auto;
 	margin-right: auto;
 
 	font-size: 0pt;
 }
 
-.questions {
+.questions, .press {
 	max-width: 80%;
+}
+
+.press .separator {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.press > h2 {
+	padding-bottom: 12px;
+}
+
+.press > h2 > span {
+	padding-bottom: .125em;
 }
 
 .prizes {
@@ -369,6 +391,10 @@ a#register:hover {
 
 #faq {
 	padding-bottom: 24px;
+}
+
+.pad {
+	padding-bottom: 24px;	
 }
 
 #by {
