@@ -1,3 +1,29 @@
+@font-face {
+    font-family: 'museoslab';
+    src: url('./fonts/exljbris_-_museoslab-300-webfont.eot');
+    src: url('./fonts/exljbris_-_museoslab-300-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/exljbris_-_museoslab-300-webfont.woff') format('woff'),
+         url('./fonts/exljbris_-_museoslab-300-webfont.ttf') format('truetype'),
+         url('./fonts/exljbris_-_museoslab-300-webfont.svg#museo_slab300') format('svg');
+    font-weight: 300;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'museoslab';
+    src: url('./fonts/exljbris_-_museoslab-700-webfont.eot');
+    src: url('./fonts/exljbris_-_museoslab-700-webfont.eot?#iefix') format('embedded-opentype'),
+         url('./fonts/exljbris_-_museoslab-700-webfont.woff') format('woff'),
+         url('./fonts/exljbris_-_museoslab-700-webfont.ttf') format('truetype'),
+         url('./fonts/exljbris_-_museoslab-700-webfont.svg#museo_slab700') format('svg');
+    font-weight: 700;
+    font-style: normal;
+}
+
+.tk-museo-slab {
+	font-family: 'museoslab';
+}
+
 html, body {
 	width: 100%;
 	height: 100%;
@@ -587,6 +613,7 @@ a, a:link, a:visited {
 
 	.description {
 		font-size: 24pt;
+		overflow: hidden;
 	}
 
 	.button {
