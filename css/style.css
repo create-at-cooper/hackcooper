@@ -64,7 +64,7 @@ p {
 	display: inline-block;
 
 	margin-left: .75em;
-	margin-right: .75em;	
+	margin-right: .75em;
 }
 
 .mention > a, .mention > a:link, .mention > a:visited {
@@ -171,7 +171,7 @@ a.block:hover {
 #trophy {
 	height: 25%;
 	max-height: 600px;
-	background-image: url('../images/winners/trophy.jpg');	
+	background-image: url('../images/winners/trophy.jpg');
 }
 
 #free {
@@ -243,7 +243,7 @@ a.block:hover {
 .alert {
 	padding-top: 24px;
 	padding-left: 24px;
-	padding-right: 24px;	
+	padding-right: 24px;
 }
 
 .action {
@@ -275,9 +275,9 @@ a.block:hover {
 
 	color: white;
 
-	-webkit-user-select: none;  
-	-moz-user-select: none;    
-	-ms-user-select: none;      
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-ms-user-select: none;
 	user-select: none;
 }
 
@@ -393,7 +393,7 @@ a#register:hover {
 	margin-right: 5%;
 }
 .qa:nth-child(even) {
-	margin-right: 0;	
+	margin-right: 0;
 }
 
 .winner {
@@ -420,7 +420,7 @@ a#register:hover {
 }
 
 .pad {
-	padding-bottom: 24px;	
+	padding-bottom: 24px;
 }
 
 #by {
@@ -499,7 +499,7 @@ a, a:link, a:visited {
 }
 
 #twitter {
-	background-image: url('../images/twitter.png');	
+	background-image: url('../images/twitter.png');
 }
 #twitter:after {
 	background-color: #55acee;
@@ -531,7 +531,7 @@ a, a:link, a:visited {
 	}
 
 	.button {
-		font-size: 44pt;	
+		font-size: 44pt;
 	}
 
 	.block-wrap {
@@ -560,7 +560,7 @@ a, a:link, a:visited {
 	}
 
 	.button {
-		font-size: 42pt;	
+		font-size: 42pt;
 	}
 
 	.info, .block, .qa, .winner {
@@ -617,7 +617,7 @@ a, a:link, a:visited {
 	}
 
 	.button {
-		font-size: 36pt;	
+		font-size: 36pt;
 	}
 
 	#date .info, #date .block {
