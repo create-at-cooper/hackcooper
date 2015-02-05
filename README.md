@@ -1,7 +1,7 @@
-hackCooper website
+HackCooper website
 ==================
 
-Static homepage for [hackCooper](http://hackcooper.org)
+Static homepage for [HackCooper](http://hackcooper.org)
 
 setup
 -----
