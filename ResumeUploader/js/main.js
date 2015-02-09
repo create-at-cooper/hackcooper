@@ -17,6 +17,22 @@ $(function () {
     // Initialize the jQuery File Upload widget:
     $('#fileupload').fileupload({
         // Uncomment the following to send cross-domain cookies:
+        add: function(e, data) {
+             var uploadErrors = [];
+             var acceptFileTypes = /(\.|\/)(pdf)$/i;
+             if(data.originalFiles[0]['type'].length && !acceptFileTypes.test(data.originalFiles[0]['type'])) {
+                 uploadErrors.push('Not an accepted file type');
+                 console.log("wrong file type");
+             }
+             if(data.originalFiles[0]['size'].length && data.originalFiles[0]['size'] > 5000000) {
+                 uploadErrors.push('File is too big');
+             }
+             if(uploadErrors.length > 0) {
+                 alert(uploadErrors.join("\n"));
+             } else {
+                 data.submit();
+             }
+            },
         xhrFields: {withCredentials: false},
         url: 'https://jac.cooper.edu/HCResumes/index.php'
     });
@@ -34,6 +50,23 @@ $(function () {
     if (window.location.hostname === 'https://jac.cooper.edu/HCResumes/index.php') {
         // Demo settings:
         $('#fileupload').fileupload('option', {
+            add: function(e, data) {
+             var uploadErrors = [];
+             var acceptFileTypes = /(\.|\/)(pdf)$/i;
+             if(data.originalFiles[0]['type'].length && !acceptFileTypes.test(data.originalFiles[0]['type'])) {
+                 uploadErrors.push('Not an accepted file type');
+                 console.log("wrong file type");
+             }
+             if(data.originalFiles[0]['size'].length && data.originalFiles[0]['size'] > 5000000) {
+                 uploadErrors.push('File is too big');
+             }
+             if(uploadErrors.length > 0) {
+                 alert(uploadErrors.join("\n"));
+             } else {
+                 data.submit();
+             }
+            },
+
             url: 'https://jac.cooper.edu/HCResumes/index.php',
             // Enable image resizing, except for Android and Opera,
             // which actually support image resizing, but fail to
