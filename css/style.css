@@ -235,6 +235,21 @@ a.block:hover {
 	z-index: -2;
 }
 
+.rules {
+	margin-top: 24px;
+	
+	padding: 24px;
+
+	color: white;
+	
+	font-size: 14pt;
+	font-weight: bold;
+	
+	background-color: #00a0f0;
+
+	position: relative;
+}
+
 .tagline {
 	padding-left: 24px;
 	padding-right: 24px;
