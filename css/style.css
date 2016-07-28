@@ -67,6 +67,18 @@ p {
 	margin-right: .75em;
 }
 
+.violation {
+	margin-left: auto;
+	margin-right: auto;
+	width: 24em;
+
+	color: #ffff00;
+	font-weight: bold;
+	font-size: 2em;
+	font-style: italic;
+	text-align: center;
+}
+
 .mention > a, .mention > a:link, .mention > a:visited {
 	color: #00a0f0;
 }
