@@ -472,7 +472,7 @@ a, a:link, a:visited {
 	vertical-align: middle;
 }
 
-.sponsor {
+/*.sponsor {
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
 	filter: gray;
@@ -484,14 +484,18 @@ a, a:link, a:visited {
 	-webkit-filter: grayscale(0%);
 	filter: none;
 	opacity: 1.0;
-}
+}*/
 
 .title {
 	overflow-x: hidden;
 }
 
-.level-5 {
+.level-4 {
 	width: 40%;
+}
+
+.level-3 {
+	width: 32%;
 }
 
 .level-2 {
