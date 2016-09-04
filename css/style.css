@@ -312,6 +312,14 @@ a#register, a#register:link {
 	color: white;
 }
 
+a.disabled {
+	pointer-events: none;
+}
+
+a[disabled] {
+	pointer-events: none;
+}
+
 a#register:hover {
 	color: #ffc600;
 }
@@ -329,6 +337,28 @@ a#register:hover {
 	cursor: pointer;
 
 	background-color: #ffc600;
+
+	position: absolute;
+	width: 100%;
+	height: 100%;
+	z-index: -1;
+
+	left: 0;
+	top: 0;
+
+	text-align: center;
+
+	transform: skewX(-45deg);
+	-webkit-transform: skewX(-45deg);
+	-moz-transform: skewX(-45deg);
+	-ms-transform: skewX(-45deg);
+}
+
+.button.disabled:after {
+	content: "";
+	cursor: pointer;
+
+	background-color: #aaaaaa;
 
 	position: absolute;
 	width: 100%;
