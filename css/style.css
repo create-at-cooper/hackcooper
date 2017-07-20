@@ -499,10 +499,7 @@ a, a:link, a:visited {
 
 .sponsor {
 	margin: 5px 10px;
-	vertical-align: middle;
-}
-
-/*.sponsor {
+	vertical-align:middle;
 	filter: grayscale(100%);
 	-webkit-filter: grayscale(100%);
 	filter: gray;
@@ -510,11 +507,13 @@ a, a:link, a:visited {
 }
 
 .sponsor:hover {
+	margin: 5px 10px;
+	vertical-align:middle;
 	filter: grayscale(0%);
 	-webkit-filter: grayscale(0%);
 	filter: none;
 	opacity: 1.0;
-}*/
+}
 
 .title {
 	overflow-x: hidden;
