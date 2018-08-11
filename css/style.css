@@ -565,6 +565,13 @@ a, a:link, a:visited {
 	background-color: #55acee;
 }
 
+#instagram {
+	background-image: url('../images/instagram.png');
+}
+#instagram:after {
+	background-color: ##bc2a8d;
+}
+
 #tumblr {
 	background-image: url('../images/tumblr_logo_white_blue_128.png');
 }
