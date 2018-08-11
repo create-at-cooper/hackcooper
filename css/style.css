@@ -566,8 +566,7 @@ a, a:link, a:visited {
 }
 
 #instagram {
-	background: url('../images/instagram_white.svg');
-	background-size: 64px 64px;
+	background: url('../images/instagram_white.png');
 }
 #instagram:after {
 	background-color: #bc2a8d;
