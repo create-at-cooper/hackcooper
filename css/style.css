@@ -499,8 +499,12 @@ a, a:link, a:visited {
 }
 
 /*sponsors*/
-
 .sponsor {
+	margin: 5px 10px;
+	vertical-align:middle;
+  object-fit: contain;
+}
+.sponsor-old {
 	margin: 5px 10px;
 	vertical-align:middle;
 	filter: grayscale(100%);
@@ -508,9 +512,20 @@ a, a:link, a:visited {
 	filter: gray;
 	opacity: 0.6;
   object-fit: contain;
+  -webkit-transition: .12s -webkit-filter linear;
+  -moz-transition: .12s -moz-filter linear;
+  -moz-transition: .12s filter linear;
+  -ms-transition: .12s -ms-filter linear;
+  -o-transition: .12s -o-filter linear;
+  transition: .12s filter linear, .12s -webkit-filter linear;
+  -webkit-transition: .12s opacity linear;
+  -moz-transition: .12s opacity linear;
+  -ms-transition: .12s opacity linear;
+  -o-transition: .12s opacity linear;
+  transition: .12s opacity linear, 1s -webkit-filter linear;
 }
 
-.sponsor:hover {
+.sponsor-old:hover {
 	margin: 5px 10px;
 	vertical-align:middle;
 	filter: grayscale(0%);
