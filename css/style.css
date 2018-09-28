@@ -313,7 +313,12 @@ a.block:hover {
 
 a#register, a#register:link {
 	color: white;
-}
+  -webkit-transition: .12s color linear;
+  -moz-transition: .12s color linear;
+  -moz-transition: .12s color linear;
+  -ms-transition: .12s color linear;
+  -o-transition: .12s color linear;
+  transition: .12s color linear, .12s color linear;}
 
 a.disabled {
 	pointer-events: none;
@@ -329,6 +334,12 @@ a#register:hover {
 
 .button:hover {
 	color: #ffc600;
+  -webkit-transition: .12s background-color linear;
+  -moz-transition: .12s background-color linear;
+  -moz-transition: .12s background-color linear;
+  -ms-transition: .12s background-color linear;
+  -o-transition: .12s background-color linear;
+  transition: .12s background-color linear, .12s background-color linear;
 }
 
 .button:hover:after {
@@ -712,19 +723,19 @@ a, a:link, a:visited {
 	#date .block {
 		margin-left: 0.1em;
 	}
-	.level-5 {
+	.tier-1 {
 		width:80%;
 	}
 
-	.level-2 {
+	.tier-2 {
 		width:70%;
 	}
 
-	.level-1 {
+	.tier-3 {
 		width:60%;
 	}
 
-	.level-0 {
+	.tier-past {
 		width:50%;
 	}
 
